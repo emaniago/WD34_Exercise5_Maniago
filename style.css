@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@300&display=swap');
+body{
+    background: url("backgroundimg.jpeg") no-repeat;
+    background-size: cover;
+}
+div{
+    background: rgba(255, 140, 105, 0.3);
+    color:#5c5cc7;
+    font-family: 'Sono', sans-serif;
+    letter-spacing: 5px;
+    word-spacing: 30px;
+    
+}
+.greenBackground{
+    background: #008000;
+    color: yellow;
+}
+#sampleId{
+    color: black;
+    border: 5px solid #008000;
+    border-radius: 10px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(255, 255, 255, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(124, 67, 67, 0.75);
+    box-shadow: 10px 10px 5px 0px rgba(255, 255, 255, 0.75);
+}
+.sampleBox{
+    background: red;
+    color: aqua;
+    margin: 40px 20px 30px 20px;
+    padding: 40px 20px 30px 20px;
+    border: 5px solid #008000;
+    border-radius: 10px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(255, 255, 255, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(124, 67, 67, 0.75);
+    box-shadow: 10px 10px 5px 0px rgba(255, 255, 255, 0.75);
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: light;
+    /* bold, bolder, light, normal */
+    font-style: italic;
+    text-transform: capitalize;
+    /* lowercase, uppercase, capitalize */
+    text-decoration: underline;
+    /* overline, underline, line-through */
+    text-align: center;
+
+}
+.overflowSample{
+    width: cover;
+    height: 200px;
+    overflow-y: scroll;
+    text-indent: 100px;
+}
